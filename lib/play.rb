@@ -38,6 +38,6 @@ end
 # Define your play method below
 def play(board)
   for i in (0..8)
-    move(board)
+    turn(board)
   end
 end
